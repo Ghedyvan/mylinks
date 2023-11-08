@@ -4,7 +4,7 @@ import profileVideo from "../../assets/profile.mp4";
 import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
 
-export function MyLinksHeader() {
+export default function MyLinksHeader() {
   const imageRef = useRef(null);
   const nameRef = useRef(null);
   const descriptionRef = useRef(null);
