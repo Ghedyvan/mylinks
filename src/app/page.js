@@ -5,6 +5,7 @@ import  MyLinksHeader  from "@/components/mylinks/MyLinksHeader";
 export default function Home() {
   return (
     <div className="items-center">
+      
       <Background />
       <MyLinksHeader />
       <MyLinksBody />
