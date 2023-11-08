@@ -1,5 +1,3 @@
-'use client'
-
 import backgroundVideo from "../../assets/background2.mp4";
 
 export default function Background() {
