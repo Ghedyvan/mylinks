@@ -12,17 +12,16 @@ export const metadata = {
   title: "G Vinícius",
   description: "Minha página pessoal",
   icons: {
-    icon: '/favicon.ico', 
+    icon: "/favicon.ico",
   },
-  
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <head>
-        <link rel='icon' href='/favicon.ico' />
-      </head>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body className={ibmPlexSans.className}>
         {children}
         <Analytics />

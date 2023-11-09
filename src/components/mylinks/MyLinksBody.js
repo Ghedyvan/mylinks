@@ -120,7 +120,7 @@ export default function MyLinksBody() {
           Entre em contato via Email!
         </p>
       </a>
-      <h2 ref={ thanksRef } className="text-white flex align-middle items-center justify-center">
+      <h2 ref={ thanksRef } className="text-white flex align-middle items-center justify-center mb-20">
         Obrigado pela visita
         <span>
           <Image className="w-6 ml-2" src={cowboy} alt="cowboy icon" />
